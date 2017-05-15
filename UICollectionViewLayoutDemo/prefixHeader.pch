@@ -1,0 +1,29 @@
+//
+//  prefixHeader.pch
+//  UICollectionViewLayoutDemo
+//
+//  Created by mengqingzheng on 2017/5/14.
+//  Copyright © 2017年 mengqingzheng. All rights reserved.
+//
+
+#ifndef prefixHeader_h
+#define prefixHeader_h
+
+#import "Masonry.h"
+
+#define kBaseLine(a) (CGFloat)a * SCREEN_WIDTH / 375.0
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define COLORA(R,G,B,A) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:A]
+#define COLOR(R,G,B) COLORA(R,G,B,1.0)
+
+/** 边框*/
+#define ViewBorder(View,Width,Color)\
+\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+
+#endif /* prefixHeader_h */
