@@ -96,6 +96,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6AE51C61ED1DD5F00066C13 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8C4BD1EC89CE500FA4E5F /* ServiceLayout.h */,
+				D6D8C4BE1EC89CE500FA4E5F /* ServiceLayout.m */,
+			);
+			name = layout;
+			sourceTree = "<group>";
+		};
+		D6AE51C71ED1DD7700066C13 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8C4A81EC89C7900FA4E5F /* ViewController.h */,
+				D6D8C4A91EC89C7900FA4E5F /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		D6AE51C81ED1DD8C00066C13 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8C4B91EC89CE500FA4E5F /* FooterReusableView.h */,
+				D6D8C4BA1EC89CE500FA4E5F /* FooterReusableView.m */,
+				D6D8C4BB1EC89CE500FA4E5F /* HeaderReusableView.h */,
+				D6D8C4BC1EC89CE500FA4E5F /* HeaderReusableView.m */,
+				D6D8C4BF1EC89CE500FA4E5F /* ServiceLeftPicCell.h */,
+				D6D8C4C01EC89CE500FA4E5F /* ServiceLeftPicCell.m */,
+				D6D8C4C11EC89CE500FA4E5F /* ServiceNormalCell.h */,
+				D6D8C4C21EC89CE500FA4E5F /* ServiceNormalCell.m */,
+				D6D8C4C31EC89CE500FA4E5F /* ServiceOnePicCell.h */,
+				D6D8C4C41EC89CE500FA4E5F /* ServiceOnePicCell.m */,
+				D6D8C4C51EC89CE500FA4E5F /* ServicePicTwoTitleCell.h */,
+				D6D8C4C61EC89CE500FA4E5F /* ServicePicTwoTitleCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		D6D8C4961EC89C7900FA4E5F = {
 			isa = PBXGroup;
 			children = (
@@ -117,27 +154,14 @@
 			children = (
 				D6D8C4A51EC89C7900FA4E5F /* AppDelegate.h */,
 				D6D8C4A61EC89C7900FA4E5F /* AppDelegate.m */,
-				D6D8C4A81EC89C7900FA4E5F /* ViewController.h */,
-				D6D8C4A91EC89C7900FA4E5F /* ViewController.m */,
+				D6AE51C61ED1DD5F00066C13 /* layout */,
+				D6AE51C71ED1DD7700066C13 /* controller */,
+				D6AE51C81ED1DD8C00066C13 /* view */,
 				D6D8C4AB1EC89C7900FA4E5F /* Main.storyboard */,
 				D6D8C4AE1EC89C7900FA4E5F /* Assets.xcassets */,
 				D6D8C4CE1EC8A01600FA4E5F /* prefixHeader.pch */,
 				D6D8C4B01EC89C7900FA4E5F /* LaunchScreen.storyboard */,
 				D6D8C4B31EC89C7900FA4E5F /* Info.plist */,
-				D6D8C4B91EC89CE500FA4E5F /* FooterReusableView.h */,
-				D6D8C4BA1EC89CE500FA4E5F /* FooterReusableView.m */,
-				D6D8C4BB1EC89CE500FA4E5F /* HeaderReusableView.h */,
-				D6D8C4BC1EC89CE500FA4E5F /* HeaderReusableView.m */,
-				D6D8C4BD1EC89CE500FA4E5F /* ServiceLayout.h */,
-				D6D8C4BE1EC89CE500FA4E5F /* ServiceLayout.m */,
-				D6D8C4BF1EC89CE500FA4E5F /* ServiceLeftPicCell.h */,
-				D6D8C4C01EC89CE500FA4E5F /* ServiceLeftPicCell.m */,
-				D6D8C4C11EC89CE500FA4E5F /* ServiceNormalCell.h */,
-				D6D8C4C21EC89CE500FA4E5F /* ServiceNormalCell.m */,
-				D6D8C4C31EC89CE500FA4E5F /* ServiceOnePicCell.h */,
-				D6D8C4C41EC89CE500FA4E5F /* ServiceOnePicCell.m */,
-				D6D8C4C51EC89CE500FA4E5F /* ServicePicTwoTitleCell.h */,
-				D6D8C4C61EC89CE500FA4E5F /* ServicePicTwoTitleCell.m */,
 				D6D8C4CF1EC8A21400FA4E5F /* Masonry */,
 				D6D8C4A21EC89C7900FA4E5F /* Supporting Files */,
 			);
@@ -435,6 +459,7 @@
 				D6D8C4B81EC89C7900FA4E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
